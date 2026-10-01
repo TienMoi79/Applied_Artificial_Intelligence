@@ -1,0 +1,16 @@
+GOM 3 CỤM: KM_Employee_Compensation_SF.csv
+Đặc trưng: Salaries, Overtime.
+Dòng gốc: 291825; dùng: 291825; loại: 0.
+Ô thiếu được điền median: 0.
+StandardScaler; KMeans K=3, n_init=10, seed=123.
+SSE trong không gian chuẩn hóa: 192511.651647.
+Số vòng của lần khởi tạo được chọn: 15.
+Tâm trong đơn vị gốc và số mẫu:
+              Salaries      Overtime   count
+cluster                                     
+1         98255.592835   3330.563692  129078
+2         26913.889547    822.768365  144052
+3        100803.323679  39439.486104   18695
+NOTE: Nhãn 1,2,3 là tên nhóm, không phải thứ hạng hay mức đánh giá nhân viên.
+NOTE: Gom cụm không có accuracy vì dataset không có nhãn cụm thật.
+NOTE: SSE tính trên dữ liệu chuẩn hóa; không so trực tiếp với SSE dùng đơn vị gốc.

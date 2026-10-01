@@ -1,0 +1,9 @@
+BÀI 2 - FISH: Weight -> Width; Weight -> Species
+Mẫu hợp lệ: 158; loại: 1 (thiếu/không hợp lệ).
+Train: 94; test: 64; stratify theo loài; seed=1.
+RMSE Width: 0.822851; R2: 0.740086.
+Accuracy Species: 48.44%.
+Weight=300: Width=4.002015; Species dự đoán=Perch.
+Tỷ lệ phiếu của 5 láng giềng: 40% (không phải độ chính xác).
+Loài được dự đoán chỉ từ trọng lượng; nhiều loài có trọng lượng tương tự.
+NOTE: Width dùng hồi quy chung trên các loài; chưa phân biệt hình dạng riêng mỗi loài.

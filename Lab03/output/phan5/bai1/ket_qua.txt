@@ -1,0 +1,8 @@
+BÀI 1 - TITANIC: age -> fare
+Mẫu hợp lệ: 1045; loại: 265.
+Train: 627; test: 418; random_state=1.
+RMSE test: 63.321757; R2 test: 0.024236.
+Mô hình toàn bộ dữ liệu: fare = 16.019756 + 0.692297 * age.
+Tuổi 30: tiền vé dự báo 36.788655.
+Dự báo chỉ từ tuổi; giá vé còn phụ thuộc hạng vé và nhiều yếu tố khác.
+NOTE: R2 gần 0 hoặc âm cho thấy tuổi riêng lẻ giải thích giá vé kém.
